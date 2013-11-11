@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css"  href="css/jquery.mobile-1.3.2.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script>
+</head>
+<body>
+	
+	<div id="page1" data-role="page" >
+		<script type="text/javascript">
+			$(document).ready(function(event,data) {
+				console.log("#page1 --------------- document ready event");
+			});
+		</script>
+		<p>
+			page1;
+		</p>
+
+		<a href="mainPage.html" data-rel="back" data-transition="slide">link to mainPage</a>
+		<br>
+		<a href="page2.html" data-transition="slide">link to page2</a>
+	</div>
+</body>
+</html>

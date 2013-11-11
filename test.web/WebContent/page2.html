@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css"  href="css/jquery.mobile-1.3.2.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script>
+</head>
+<body>
+	<div data-role="page" id="page2" data-url="aaa=123">
+		<script type="text/javascript">
+			$(document).ready(function(event,data) {
+				console.log("#page2  --------------- document ready event");
+			});
+		</script>
+		<p>
+			page2;
+		</p>
+
+		<a href="#" data-transition="slide">link test</a>
+	</div>
+</body>
+
+</html>
